@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home screen render Initial render works 1`] = `
+<div>
+  <main>
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        Flashcards
+      </a>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          className="mr-nav navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Home
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div
+      className="container"
+    >
+      <div
+        className="react-card-flip"
+        style={
+          Object {
+            "perspective": "1000px",
+            "zIndex": "auto",
+          }
+        }
+      >
+        <div
+          className="react-card-flipper"
+          style={
+            Object {
+              "height": "100%",
+              "position": "relative",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="react-card-front"
+            style={
+              Object {
+                "WebkitBackfaceVisibility": "hidden",
+                "backfaceVisibility": "hidden",
+                "height": "100%",
+                "left": "0",
+                "position": "relative",
+                "top": "0",
+                "transform": "rotateX(0deg)",
+                "transformStyle": "preserve-3d",
+                "transition": "0.6s",
+                "width": "100%",
+                "zIndex": "2",
+              }
+            }
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Question 1
+                </div>
+                <p
+                  className="card-text"
+                >
+                  What color is the sky?
+                </p>
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Show answer
+                </button>
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Next card
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="react-card-back"
+            style={
+              Object {
+                "WebkitBackfaceVisibility": "hidden",
+                "backfaceVisibility": "hidden",
+                "height": "100%",
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+                "transform": "rotateX(-180deg)",
+                "transformStyle": "preserve-3d",
+                "transition": "0.6s",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Answer
+                </div>
+                <p
+                  className="card-text"
+                >
+                  blue
+                </p>
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Back
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
