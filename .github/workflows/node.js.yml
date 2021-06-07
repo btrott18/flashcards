@@ -27,9 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test
+    #- run: npm test (runs in the coverage step)
     - name: coverage
       uses: artiomtr/jest-coverage-report-action@v1.3 
       with:
         github_token: ${{ secrets.COVERAGE_REPORT_TOKEN }}
-       
